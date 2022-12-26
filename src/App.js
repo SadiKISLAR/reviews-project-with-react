@@ -1,18 +1,20 @@
 import React from 'react';
 import Review from './Review';
-import { FaGithubSquare, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
+const url = 'https://randomuser.me/api/'
+
 function App() {
-  return <main>
-    <section className="container">
-      <div className="title">
-        <h2>our reviews</h2>
-        <div className="underline"></div>
-      </div>
-      <Review />
-    </section>
 
-
-  </main>;
+  return (
+    <main>
+      <section className="container">
+        <div className="title">
+          <h2>Reviews</h2>
+          <div className="underline"></div>
+        </div>
+        <Review />
+      </section>
+    </main>
+  );
 }
 
 export default App;
