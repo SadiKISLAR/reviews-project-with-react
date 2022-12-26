@@ -1,6 +1,5 @@
 import React from 'react';
 import Review from './Review';
-const url = 'https://randomuser.me/api/'
 
 function App() {
 
