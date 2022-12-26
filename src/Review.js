@@ -19,7 +19,14 @@ const Review = () => {
     <div className="button-container">
       <button className='prev-btn'>
         <FaChevronLeft />
-      </button></div>
+      </button>
+      <button className='next-btn'>
+        <FaChevronRight />
+      </button>
+      <button className='random-btn'>
+        Suprise me
+      </button>
+    </div>
   </article>
 
 };
